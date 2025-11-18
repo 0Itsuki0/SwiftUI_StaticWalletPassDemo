@@ -6,14 +6,28 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		98D15FAA2ECC30FB003BDB39 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 98D15FA52ECC30FB003BDB39 /* README.md */; };
+		98D15FBB2ECC44B0003BDB39 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 98D15FBA2ECC44B0003BDB39 /* .gitignore */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
-		98D15F8D2ECC0415003BDB39 /* StaticWalletPassDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StaticWalletPassDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		98D15F8D2ECC0415003BDB39 /* StaticWalletPassDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = StaticWalletPassDemo.app; path = "/Users/itsuki/Desktop/Swift/StaticWalletPassDemo/build/Debug-iphoneos/StaticWalletPassDemo.app"; sourceTree = "<absolute>"; };
+		98D15FA52ECC30FB003BDB39 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		98D15FBA2ECC44B0003BDB39 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		98D15FBC2ECC44E6003BDB39 /* testPassOnSimulator.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = testPassOnSimulator.gif; sourceTree = "<group>"; };
+		98D15FBD2ECC44EC003BDB39 /* demo.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = demo.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		98D15F8F2ECC0415003BDB39 /* StaticWalletPassDemo */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = StaticWalletPassDemo;
+			sourceTree = "<group>";
+		};
+		98D15FB92ECC4499003BDB39 /* itsuki.giftcard.pass */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = itsuki.giftcard.pass;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -32,17 +46,13 @@
 		98D15F842ECC0415003BDB39 = {
 			isa = PBXGroup;
 			children = (
+				98D15FBC2ECC44E6003BDB39 /* testPassOnSimulator.gif */,
+				98D15FBD2ECC44EC003BDB39 /* demo.gif */,
+				98D15FBA2ECC44B0003BDB39 /* .gitignore */,
 				98D15F8F2ECC0415003BDB39 /* StaticWalletPassDemo */,
-				98D15F8E2ECC0415003BDB39 /* Products */,
+				98D15FA52ECC30FB003BDB39 /* README.md */,
+				98D15FB92ECC4499003BDB39 /* itsuki.giftcard.pass */,
 			);
-			sourceTree = "<group>";
-		};
-		98D15F8E2ECC0415003BDB39 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				98D15F8D2ECC0415003BDB39 /* StaticWalletPassDemo.app */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -95,7 +105,7 @@
 			mainGroup = 98D15F842ECC0415003BDB39;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = 98D15F8E2ECC0415003BDB39 /* Products */;
+			productRefGroup = 98D15F842ECC0415003BDB39;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -109,6 +119,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				98D15FBB2ECC44B0003BDB39 /* .gitignore in Resources */,
+				98D15FAA2ECC30FB003BDB39 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

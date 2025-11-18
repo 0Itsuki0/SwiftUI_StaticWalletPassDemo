@@ -1,0 +1,19 @@
+{
+    "formatVersion": 1,
+    "passTypeIdentifier": "pass.com.itsuki.giftcard",
+    "serialNumber": "001",
+    "teamIdentifier": "<TeamID>",
+    "organizationName": "Itsuki World",
+    "description": "Sample Giftcard",
+    "logoText": "Itsuki Giftcard",
+    "foregroundColor": "rgb(231, 222, 175)",
+    "backgroundColor": "rgb(0, 126, 110)",
+    "barcodes": [
+        {
+            "message": "Gift From Itsuki",
+            "format": "PKBarcodeFormatQR",
+            "messageEncoding": "iso-8859-1"
+        }
+    ],
+    "generic": {}
+}
