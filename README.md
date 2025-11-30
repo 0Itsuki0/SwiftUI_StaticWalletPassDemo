@@ -2,7 +2,7 @@
 
 A demo of creating a wallet pass (static, ahead of time) and distribute it with an App.
 
-For more details, please refer to my article [Create An Apple Wallet Pass and Make An App To Distribute it]()
+For more details, please refer to my article [Create An Apple Wallet Pass and Make An App To Distribute it](https://medium.com/@itsuki.enjoy/swiftui-create-an-apple-wallet-pass-and-make-an-app-to-distribute-it-2efbe8878b68)
 
 ## Demo
 ![](./demo.gif)
